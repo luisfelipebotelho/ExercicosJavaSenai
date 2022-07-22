@@ -9,6 +9,7 @@ public class TerceiroExercicioSalario {
 		
 		double a = 0;
 		double b = 0;
+		double resultado = 0;
 		
 		Scanner leia = new Scanner(System.in).useLocale(Locale.US);
 		
@@ -18,7 +19,7 @@ public class TerceiroExercicioSalario {
 		System.out.println("Quantas horas você trabalha no mÊs? ");
 		b = leia.nextDouble();
 		
-		double resultado = a * b;
+		resultado = a * b;
 		System.out.println("Seu salário no mês foi: " + resultado);
 		
 		leia.close();

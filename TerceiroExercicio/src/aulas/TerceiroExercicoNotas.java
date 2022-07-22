@@ -11,6 +11,7 @@ public class TerceiroExercicoNotas {
 		double b = 0;
 		double c = 0;
 		double d = 0;
+		double resultado = 0;
 		
 		Scanner leia = new Scanner(System.in).useLocale(Locale.US);
 		
@@ -26,7 +27,7 @@ public class TerceiroExercicoNotas {
 		System.out.println("Digite a nota do quarto bimestre: ");
 		d = leia.nextDouble();
 		
-		double resultado = (a + b + c + d)/4;
+		resultado = (a + b + c + d)/4;
 		System.out.println("A média bimestral do aluno é: "+ resultado);
 		
 		leia.close();

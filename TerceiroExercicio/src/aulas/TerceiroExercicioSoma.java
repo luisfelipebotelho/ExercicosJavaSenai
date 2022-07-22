@@ -9,6 +9,7 @@ public class TerceiroExercicioSoma {
 	
 		double numero1 = 0;
 		double numero2 = 0;
+		double soma = 0;
 		
 		Scanner leia = new Scanner(System.in).useLocale(Locale.US);
 		
@@ -18,8 +19,9 @@ public class TerceiroExercicioSoma {
 		System.out.println("Digite o segundo numero: ");
 		numero2 = leia.nextDouble();
 		
-		double resultado = numero1 + numero2;
-		System.out.println("A soma dos números é: " + resultado);
+		soma = numero1 + numero2;
+		System.out.println("A soma dos números é: " + soma);
+	
 		
 		leia.close();
 
