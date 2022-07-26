@@ -15,12 +15,12 @@ public class QuintoExercicioEntregar {
 		i = leia.nextInt();
 
 		while (i < 0 || i > 10) {
-			System.out.println("Nota inválida!");
+			System.out.println("\nNota inválida! \n");
 			System.out.println("Entre com uma nota entre 0 a 10: ");
 			i = leia.nextInt();
 
 		}
-		System.out.println("A nota digitada foi: " + i);
+		System.out.println("\nA nota digitada foi: " + i);
 
 		leia.close();
 

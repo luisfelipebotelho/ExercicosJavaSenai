@@ -11,7 +11,7 @@ public class QuintoExercicioEntregar3 {
 
 		String nome;
 		int idade = 0;
-		double salario = 0;
+		double salario = 0.0;
 		char sexo, ec;
 
 		// Validação de nome;
@@ -60,28 +60,31 @@ public class QuintoExercicioEntregar3 {
 		System.out.println("Digite seu sexo: ");
 		sexo = leia.next().charAt(0);
 
-		while (sexo == 'm' || sexo == 'f')
-		{
+		while (Character.toUpperCase(sexo) == 'M' || Character.toUpperCase(sexo) == 'F') {
 			System.out.println("O sexo precisa ser M ou F ");
 			System.out.println("Digite seu sexo: ");
 			sexo = leia.next().charAt(0);
 
 		}
 		System.out.println("Seu sexo é :" + sexo);
-		
-		//Validação do estado civil
-		
+
+		// Validação do estado civil
+
 		System.out.println("Digite seu estado civil: ");
 		ec = leia.next().charAt(0);
-		
-		while (ec == 's' || ec == 'c' || ec == 'v' || ec == 'd');
+
+		while (Character.toUpperCase(ec) == 'S' 
+				|| Character.toUpperCase(ec)== 'C' 
+				|| Character.toUpperCase(ec) == 'V' 
+				|| Character.toUpperCase(ec) == 'D')
+			;
 		{
 			System.out.println(" O estado civil precisa ser: s, c, v ou d");
 			System.out.println("Digite seu estado civil: ");
 			ec = leia.next().charAt(0);
-			
-		}System.out.println("Seu estado civil é: " + ec);
-		
+
+		}
+		System.out.println("Seu estado civil é: " + ec);
 
 		leia.close();
 
