@@ -79,7 +79,7 @@ public class QuintoExercicioEntregar3 {
 				|| Character.toUpperCase(ec) == 'D')
 			;
 		{
-			System.out.println(" O estado civil precisa ser: s, c, v ou d");
+			System.out.println(" O estado civil precisa ser: S, C, V ou D");
 			System.out.println("Digite seu estado civil: ");
 			ec = leia.next().charAt(0);
 
