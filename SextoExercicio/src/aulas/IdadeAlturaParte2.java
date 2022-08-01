@@ -16,29 +16,17 @@ public class IdadeAlturaParte2 {
 
 			System.out.println("Entre com a idade: ");
 			idades[i] = sc.nextInt();
-		}
-		for (int a = 0; a < alturas.length; a++) {
 
 			System.out.println("Entre com a altura em centímetros: ");
-			alturas[a] = sc.nextInt();
+			alturas[i] = sc.nextInt();
 		}
-		/*
-		 * for(int i = 0; i < idades.length; i++) { System.out.println("idades: \n" +
-		 * idades[i]);
-		 * 
-		 * } for(int a = 0; a < alturas.length; a++) { System.out.println("alturas: \n"
-		 * + alturas[a]);
-		 * 
-		 * }
-		 */
 
 		for (int idade : idades) {
-		System.out.println("idade " + idade + " anos");
+			System.out.println("idade " + idade + " anos");
 
 		}
 
 		for (int altura : alturas) {
-
 			System.out.println("altura " + altura + " cm");
 
 		}

@@ -13,7 +13,7 @@ public class ArrayMatiz {
 		int[] numero2 = {1, 25, 10}; // inicializa o array
 		
 		System.out.println(numero2[1]); // obtem o valor do array no indice indicado
-		System.out.println(numero[1]); // resultado vai ser zero, pois temos somente a quantidade de posições
+		System.out.println(numero[4]); // resultado vai ser zero, pois temos somente a quantidade de posições
 		System.out.println(numero.length); // obtem o tamanho do array
 		
 		
