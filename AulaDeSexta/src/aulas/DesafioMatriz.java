@@ -18,7 +18,7 @@ public class DesafioMatriz {
 				numerosArray[i][j] = contador;				
 				contador++;
 				if(i==j) {
-					System.out.println(numerosArray[i][j]);
+					System.out.print(numerosArray[i][j] + "\t");
 				}
 			}
 		
