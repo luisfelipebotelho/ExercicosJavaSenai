@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 import entities.Conta;
 import entities.ContaCorrente;
+import entities.ContaPoupanca;
 
 public class Program {
 
@@ -12,17 +13,22 @@ public class Program {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 		
 		//Cliente cliente = new Cliente();
+		
+		Conta contaPoupanca = new ContaPoupanca();
 		Conta contaCorrente = new ContaCorrente();
 		Conta conta = new Conta();
 		
 		conta.Depositar(100);
 		contaCorrente.Depositar(200);
+		contaPoupanca.Depositar(300);
 		
 		conta.Sacar(50);
 		contaCorrente.Sacar(50);
+		contaPoupanca.Sacar(50);
 		
 		System.out.println("saldo conta: " + conta.getSaldo());
 		System.out.println("Sando conta corrente: " + contaCorrente.getSaldo());
+		System.out.println("Saldo conta poupança: " + contaPoupanca.getSaldo());
 		
 		/*
 		System.out.print("Entre com o nome do titular da conta: ");
