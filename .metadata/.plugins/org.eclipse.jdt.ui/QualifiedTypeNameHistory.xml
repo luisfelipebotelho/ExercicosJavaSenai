@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="aulas.ArrayMatiz"/>
     <fullyQualifiedTypeName name="entity.Pessoa"/>
+    <fullyQualifiedTypeName name="entities.Clientes"/>
+    <fullyQualifiedTypeName name="entities.AnoException"/>
 </qualifiedTypeNameHistroy>
