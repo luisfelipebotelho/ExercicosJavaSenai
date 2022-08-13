@@ -6,7 +6,7 @@ public class Moto extends Veiculo {
 		
 	}
 	
-	public Moto( int quantPneus, double motor, int quantPassageiros, char tipoCombustivel) {
+	public Moto( int quantPneus, int quantPassageiros, char tipoCombustivel, double motor) {
 		
 	}
 

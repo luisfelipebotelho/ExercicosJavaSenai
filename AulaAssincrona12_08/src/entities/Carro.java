@@ -6,7 +6,7 @@ public class Carro extends Veiculo {
 		
 	}
 
-	public Carro(int quantPneus, double motor, int quantPassageiros, char tipoCombustivel) {
+	public Carro(int quantPneus, int quantPassageiros, char tipoCombustivel, double motor) {
 		
 	}
 	

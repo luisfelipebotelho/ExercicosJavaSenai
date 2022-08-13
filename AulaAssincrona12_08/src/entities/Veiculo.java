@@ -32,7 +32,6 @@ public class Veiculo {
 		this.tipoCombustivel = tipoCombustivel;
 	}
 	
-	
 	@Override
 	public String toString() {
 		return "\n*******Veículo*******\n"
